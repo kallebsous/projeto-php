@@ -1,0 +1,62 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkslategray;
+}
+.main{
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 20px;
+    border-radius: 20px;
+}
+
+form label{
+    display: block;
+    
+    font-weight: bold;
+}
+form input{
+    margin-bottom: 10px;
+    width: 90%;
+    background-color: tan;
+    color: black;
+    padding: 8px;   
+    
+}
+form ::placeholder{
+    color: rgb(67, 64, 64);
+}   
+form select{
+    background-color: tan;
+color: black;
+font-weight: bold;
+}
+
+.btn1{
+    color: white;
+    font-weight: bold;
+    background: rgb(9,11,36);
+    background: linear-gradient(90deg, rgba(9,11,36,1) 0%, rgba(52,45,28,1) 35%);
+    border-radius: 15px;
+    border: none;
+    padding: 8px;
+    width: 100%;
+}
+.btn1:hover{
+    transition: 0.2s;
+    scale: 1.1;
+    cursor: pointer;
+    background: rgb(16,18,34);
+background: linear-gradient(90deg, rgba(16,18,34,0.9500175070028011) 0%, rgba(153,132,80,1) 35%);
+}
