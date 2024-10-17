@@ -11,7 +11,7 @@
     
     
         
-        <form action="" method="post">
+        <form action="redirect.php" method="post">
             <h1>
                 Cadastro de veículo
             </h1>
@@ -47,7 +47,7 @@
               <select name="cambio" id="cambio" required>
                 <option selected disabled> Selecione</option>
                 <option value="1"> Manual </option>
-                <option value="2">Automatico</option>
+                <option value="0">Automatico</option>
               </select> 
               
             </p>
@@ -58,12 +58,12 @@
                 <select name="rastri" id="rastri" required>
                     <option selected disabled> Selecione</option>
                     <option value="1"> Sim </option>
-                    <option value="2">Não</option>
+                    <option value="0">Não</option>
                   </select> 
             </p>
             <br>
 
-            <button type="submit" class="btn1">Cadastrar</button>
+            <button type="submit" class="btn1" name="cadastrar">Cadastrar</button>
             
         
         </form>
